@@ -12,7 +12,7 @@ import {
 
 class ListItem extends Component {
   render() {
-
+    console.log('IN ListItem'); // dbg..
     const icons = {
       "jpg": faFileImage,
       "mov": faFileVideo,
