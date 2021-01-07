@@ -12,7 +12,6 @@ import {
 
 class ListItem extends Component {
   render() {
-    console.log('IN ListItem'); // dbg..
     const icons = {
       "jpg": faFileImage,
       "mov": faFileVideo,
@@ -20,7 +19,6 @@ class ListItem extends Component {
       "mp3": faFileAudio
     }
 
-    console.log('this.prop :>> ', this.props); // dbg..
     
     return (
       <div className="ListItem">

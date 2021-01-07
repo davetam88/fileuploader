@@ -14,14 +14,12 @@ class App extends Component {
   }
 
   updateSearchTerm(term) {
-    console.log('IN updateSearchTerm'); // dbg..
     this.setState({
       searchTerm: term
     })
   }
 
   updateFilterOption(option) {
-    console.log('IN updateFilterOption'); // dbg..
     this.setState({
       filterOption: option
     })
@@ -29,7 +27,6 @@ class App extends Component {
 
 
   render() {
-    console.log('IN main render'); // dbg..
     return (
       <div className="App">
         <SearchBar
