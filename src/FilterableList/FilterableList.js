@@ -1,11 +1,20 @@
+
 import React, { Component } from 'react';
 import './FilterableList.css';
 import ListItem from '../ListItem/ListItem';
 
 class FilterableList extends Component {
   render() {
+    const { searchTerm, filterOption } = this.props;
     const list = this.props.files
+      .filter(file => file.name.includes(searchTerm)
+        && (filterOption === 'All' || file.status === filterOption))
       .map((file, key) => <ListItem {...file} key={key} />);
+      /// why use the spread op here ?, how camn the ...file do not has equal
+    {/* /// <HelloWorld count={123} step={2} /> */ }
+    console.log('list :>> ', list); // dbg..
+
+
     return (
       <div className="FilterableList">
         {list}
@@ -14,8 +23,13 @@ class FilterableList extends Component {
   }
 }
 
+
+
+
 FilterableList.defaultProps = {
   files: []
 };
 
+
 export default FilterableList;
+

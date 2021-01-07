@@ -20,6 +20,8 @@ class ListItem extends Component {
       "mp3": faFileAudio
     }
 
+    console.log('this.prop :>> ', this.props); // dbg..
+    
     return (
       <div className="ListItem">
         <div className="ListItem__icon">
