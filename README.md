@@ -28,7 +28,7 @@
 * HTML
 * CSS
 * JavaSctipt
-* React - Props, States, Props Callback 
+* React - Props, States, Props Callback
 * Jest
 * Enzyme 
 
