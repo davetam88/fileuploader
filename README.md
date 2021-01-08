@@ -3,14 +3,14 @@
 
 ---
 # APP Features
-* User can type in keyword at search box and the file list will filter to that 
-* User can slectd file type to display.
-* This project demostrates the use of Props, States, Prop Callbacks and ECMAScript 6 APIs were used trhougth out the project.
+* User can type in a keyword at the search box and the file list will filter to that.
+* User can select the file type to display.
+* This project demonstrates the use of Props, States, Prop Callbacks, and ECMAScript 6 APIs were used throughout the project.
 
 ---
 # Live Screenshots
 
-## Start up screen 
+## Startup screen 
 
 ![close-up-1](images/md_pic1.jpg)
 
@@ -39,7 +39,7 @@
 - [GitHub Code Link] (main) https://github.com/davetam88/fileuploader/tree/main
 - [GitHub Code Link] (css-version/final-version) https://github.com/davetam88/fileuploader/tree/css-version
 
-  Note : npm installation is needed to run this app.
+  Note: npm installation is needed to run this app.
 
 ---
 ## APP Type
@@ -48,5 +48,4 @@
 ---
 ## Author
 * David Tam - Full Stack Developer
-* Also well verse in PHP and MYSQL
-
+* Also well versed in PHP and MYSQL
