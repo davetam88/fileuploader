@@ -7,21 +7,6 @@
 * User can select the file type to display.
 * This project demonstrates the use of Props, States, Prop Callbacks, and ECMAScript 6 APIs were used throughout the project.
 
----
-# Live Screenshots
-
-## Startup screen 
-
-![close-up-1](images/md_pic1.jpg)
-
-## Filter Appled:
-
-![close-up-1](images/md_pic2.jpg)
-
-##Search Box Entry:
-
-![close-up-1](images/md_pic3.jpg)
-
 
 ---
 # Built With
